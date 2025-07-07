@@ -1,0 +1,69 @@
+
+body {
+    background-color: lightblue;
+}
+#titulo1 {
+    color: red;
+    text-align: center;
+}
+
+#paragrafo1{
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+}
+.listaMae{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lista1{
+    margin: 20px 0px;
+    text-align: center;
+}
+#imagemAcademia {
+    border-radius: 20px;
+    width: 500px; 
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#tabela1 {
+    margin: 0 auto;        /* centraliza horizontalmente */
+    border-collapse: collapse; /* junta as bordas das células */
+    text-align: center;    /* centraliza o conteúdo (opcional) */
+    font-size: 25px;
+  
+}
+#tabela1 th, 
+#tabela1 td {
+    border: 1px solid #000;  /* borda preta fina */
+    padding: 10px;
+}
+
+#linkDormir {
+    color: blue;
+    text-decoration: none; /* opcional: remove o sublinhado */
+    display: flex;                 /* ativa flexbox */
+    justify-content: center;       /* centraliza horizontalmente */
+    margin-top: 20px;
+    font-size: 25px;
+}
+#linkDormir:hover {
+    color: red; /* muda para vermelho só enquanto o mouse estiver sobre o link */
+    cursor: pointer;
+}
+#botao1{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+#mensagem{
+    color: red;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+}
